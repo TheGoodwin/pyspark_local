@@ -10,6 +10,7 @@ spark : SparkSession = SparkSession.builder.master("local[*]") \
 births = (
     spark.read.format("csv")
     .option("header", "true")
+    .option("delimiter", ";")
     .load("data/inputs/births/*.csv")
 )
 
