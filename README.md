@@ -23,4 +23,4 @@ Download as CSV and extract the FD file into `data/inputs/deaths`
 
 ## Run the project
 
-`spark-submit --master local pyspark_local\main.py`
+`poetry run spark-submit --master local pyspark_local\main.py`
