@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyspark-local"
+version = "0.1.0"
+description = ""
+authors = ["Jean-Paul Goodwin <goodwinjeanpaul@outlook.fr>"]
+readme = "README.md"
+packages = [{include = "pyspark_local"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
