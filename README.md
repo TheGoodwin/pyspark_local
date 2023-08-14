@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Install Java 8
-- Install Spark
+- Install Spark ([Windows guide](https://sparkbyexamples.com/spark/apache-spark-installation-on-windows/))
 - Install Python 3
 - Install poetry
 
